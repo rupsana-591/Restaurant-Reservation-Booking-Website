@@ -1,0 +1,291 @@
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header and Navigation Styles */
+  header {
+    background-color: #34495e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    background-image: url('restaurant-hero.jpg'); /* Replace with your hero image */
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .cta-button:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Sections Styles */
+  section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #2c3e50;
+    font-weight: 600;
+  }
+  
+  /* Specials Section Styles */
+  .specials-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .special-item {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+  }
+  
+  .special-item img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* About and Team Styles */
+  
+    .about-intro {
+        font-weight: 100; /* Bold text */
+        font-size: 1.5rem;  /* Increase font size */
+        letter-spacing: 1.5px; /* Add spacing between letters for emphasis */
+        color: #ffffff; /* Light text color for contrast */
+        text-align: center; /* Center the text */
+        margin: 20px 0; /* Add some margin for spacing */
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Text shadow for better readability */
+        line-height: 1.5; /* Increase line spacing for readability */
+    }
+    .mission{
+        font-weight: 100; /* Bold text */
+        font-size: 1.5rem;  /* Increase font size */
+        letter-spacing: 1.5px; /* Add spacing between letters for emphasis */
+        color: #ffffff; /* Light text color for contrast */
+        text-align: center; /* Center the text */
+        margin: 20px 0; /* Add some margin for spacing */
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Text shadow for better readability */
+        line-height: 1.5; /* Increase line spacing for readability */ 
+    }
+    .team{
+        
+        font-weight: 100; /* Bold text */
+        font-size: 1.5rem;  /* Increase font size */
+        letter-spacing: 1.5px; /* Add spacing between letters for emphasis */
+        color: #ffffff; /* Light text color for contrast */
+        text-align: center; /* Center the text */
+        margin: 20px 0; /* Add some margin for spacing */
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Text shadow for better readability */
+        line-height: 1.5; /* Increase line spacing for readability */
+  } 
+    
+  
+  .team-member {
+    font-weight: 100; /* Bold text */
+    font-size: 1.5rem;  /* Increase font size */
+    letter-spacing: 1.5px; /* Add spacing between letters for emphasis */
+    color: #ffffff; /* Light text color for contrast */
+    text-align: center; /* Center the text */
+    margin: 20px 0; /* Add some margin for spacing */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Text shadow for better readability */
+    line-height: 1.5; /* Increase line spacing for readability */
+  }
+  
+  .team-photo {
+    width: 25%;
+    border-radius: 15%;
+  }
+  
+  /* Contact Form Styles */
+  .contact-form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 500px;
+    padding: 40px 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #c0392b;
+  }
+  
+/* Reservation Form Styles */
+.reservation-form {
+
+    padding: 40px 20px;
+    background-color:#f8f9fa;
+    border-radius: 8px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  .form-group {
+    margin: 15px 0; /* Margin between each input field */
+  }
+  
+  label {
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 5px;
+    display: block; /* Ensure labels are block elements */
+    line-height: 1.5; /* Consistent line height */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  input[type="number"],
+  select {
+    width: 80%; /* Full width for all inputs */
+    padding: 10px; /* Uniform padding */
+    margin: 10px 0; /* Uniform margin above and below */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box; /* Include padding and border in width */
+  }
+  
+  button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px; /* Space above button */
+    width: 100%; /* Make button take full width */
+  }
+  
+  button:hover {
+    background-color: #c0392b;
+  }
+  body {
+    margin: 0; /* Remove default margin */
+    height: 100vh; /* Full viewport height */
+}
+
+.about-page {
+    background: url('aboutpic.jpg') no-repeat center center fixed; /* Use your image URL */
+    background-size: cover; /* Cover the entire area */
+    color: #fff; /* Text color for contrast */
+    padding: 40px; /* Add some padding for content */
+    text-align: center; /* Center-align text */
+}
+
+.contact-form{
+    padding: 40px 20px;
+    background-color:#f8f9fa;
+    border-radius: 8px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 600px;
+  }
+
+
+  
+
+
+  
+
+  
+
+
+
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .specials-container,
+    .team-member {
+      flex-direction: column;
+      align-items: center;
+      width: 80%;
+    }
+  
+    .hero {
+      padding: 60px 20px;
+    }
+  
+    .contact-form {
+      max-width: 90%;
+    }
+  }
+  
